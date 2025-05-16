@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LYDO Council - Youth Governance System</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  />
+  <link rel="stylesheet" href="css/lydo-council.css" />
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav
+    class="navbar navbar-expand-lg navbar-light sticky-top"
+    aria-label="Primary navigation"
+  >
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="index.html" aria-label="LYDO Home">
+        <img src="img/temp-lydo.png" alt="LYDO Logo" class="nav-logo" />
+        <span class="ms-2 fw-bold text-primary">LYDO San Jose</span>
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="lydo-council.html"
+              >LYDO Council</a
+            >
+          </li>
+          <li class="nav-item"><a class="nav-link" href="sk-official.html">SK Official</a></li>
+          <li class="nav-item"><a class="nav-link" href="programs.html">Project, Programs and Activities</a></li>
+          <li class="nav-item"><a class="nav-link" href="kk-profiling.html">KK Profiling Survey</a></li>
+        </ul>
+        <ul class="navbar-nav align-items-center">
+          <li class="nav-item">
+            <a class="nav-link auth-btn signin-btn" href="sign-in.html" aria-label="Sign in"
+              >Sign In</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link auth-btn signup-btn" href="sign-up.html" aria-label="Sign up"
+              >Sign Up</a
+            >
+          </li>
+          <li class="nav-item ms-3 d-none d-lg-block">
+            <a href="#" aria-label="Youth Logo">
+              <img src="img/sk.png" alt="Youth Logo" class="sk-logo" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="council-hero text-center">
+    <div class="container">
+      <h1 class="display-4 fw-bold mb-4">Local Youth Development Office Council</h1>
+      <p class="lead mb-5">
+        Meet the dedicated team of youth leaders driving change in San Jose, Batangas
+      </p>
+      <a href="#council-members" class="btn btn-light btn-lg">Meet the Council</a>
+    </div>
+  </section>
+
+  <!-- About Council Section -->
+  <section class="council-section">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="fw-bold mb-3">About the LYDO Council</h2>
+          <div class="section-divider mx-auto"></div>
+          <p class="lead">
+            The Local Youth Development Office Council serves as the coordinating body for all youth-related programs and initiatives in San Jose, Batangas. Working in conjunction with the Sangguniang Kabataan, the LYDO Council ensures that youth governance is inclusive, transparent, and responsive to the needs of young people.
+          </p>
+        </div>
+      </div>
+
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <h3 class="fw-bold mb-4">Our Responsibilities</h3>
+          <ul class="list-unstyled">
+            <li><i class="fas fa-check-circle me-2 text-primary"></i> Formulating and implementing the Local Youth Development Plan</li>
+            <li><i class="fas fa-check-circle me-2 text-primary"></i> Coordinating youth programs across all barangays</li>
+            <li><i class="fas fa-check-circle me-2 text-primary"></i> Ensuring proper allocation and utilization of youth development funds</li>
+            <li><i class="fas fa-check-circle me-2 text-primary"></i> Facilitating youth representation in local governance processes</li>
+            <li><i class="fas fa-check-circle me-2 text-primary"></i> Building partnerships with government agencies, NGOs, and private sector</li>
+            <li><i class="fas fa-check-circle me-2 text-primary"></i> Monitoring and evaluating youth programs and initiatives</li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <div class="card shadow">
+            <div class="card-body p-4">
+              <h4 class="fw-bold mb-4">Key Achievements</h4>
+              <ul class="list-unstyled council-achievements">
+                <li>
+                  <i class="fas fa-trophy achievement-icon"></i>
+                  <strong>Comprehensive Youth Database</strong>
+                  <p class="text-muted mb-0">Established the first digital profiling system for youth in San Jose</p>
+                </li>
+                <li>
+                  <i class="fas fa-trophy achievement-icon"></i>
+                  <strong>Youth Participatory Budgeting</strong>
+                  <p class="text-muted mb-0">Implemented an inclusive process allowing youth direct input in budget allocation</p>
+                </li>
+                <li>
+                  <i class="fas fa-trophy achievement-icon"></i>
+                  <strong>Inter-Barangay Youth Network</strong>
+                  <p class="text-muted mb-0">Created a collaborative platform connecting youth leaders across all barangays</p>
+                </li>
+                <li>
+                  <i class="fas fa-trophy achievement-icon"></i>
+                  <strong>Youth Leadership Academy</strong>
+                  <p class="text-muted mb-0">Trained over 500 young leaders in governance and project management</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Organizational Structure -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="fw-bold mb-3">Organizational Structure</h2>
+          <div class="section-divider mx-auto"></div>
+          <p class="lead">
+            Understanding how the LYDO Council works with other youth governance bodies
+          </p>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <img src="img/Pic.B.png" alt="Organizational Chart" class="img-fluid org-chart shadow rounded" />
+          
+          <div class="row mt-5 g-4">
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title fw-bold">Executive Committee</h4>
+                  <p class="card-text">Oversees the overall direction and implementation of youth development programs and policies.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title fw-bold">Technical Working Groups</h4>
+                  <p class="card-text">Specialized teams focusing on specific areas such as education, entrepreneurship, sports, arts, and environmental initiatives.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card h-100">
+                <div class="card-body">
+                  <h4 class="card-title fw-bold">Barangay Coordinators</h4>
+                  <p class="card-text">Representatives ensuring effective implementation of programs at the barangay level and facilitating communication with local youth.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Council Members Section -->
+  <section class="council-section" id="council-members">
+    <div class="container">
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-8 text-center">
+          <h2 class="fw-bold mb-3">LYDC Members</h2>
+          <div class="section-divider mx-auto"></div>
+          <p class="lead">Local Youth Development Council of San Jose, Batangas</p>
+        </div>
+      </div>
+
+      <div class="row g-4 justify-content-center">
+        <!-- Chairpersons -->
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Hon. Mark H. Arre</h5>
+            <p class="text-muted">Chairperson, SK Federation President</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Hon. Julie Anne G. Flores</h5>
+            <p class="text-muted">Vice Chairperson, SK Federation President</p>
+          </div>
+        </div>
+
+        <!-- Members -->
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Mr. Luis Emmanuel Ramos</h5>
+            <p class="text-muted">Chairperson on Education</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Mr. Jarred Vincent M. Asi</h5>
+            <p class="text-muted">Chairperson on Health</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Ms. Christia Nasel M. Luna</h5>
+            <p class="text-muted">Chairperson on Governance</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Mr. Marc Adrian D. Marinas</h5>
+            <p class="text-muted">Chairperson on Governance</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Ms. Larry P. Gotgotao Jr.</h5>
+            <p class="text-muted">Chairperson on Social Inclusion and Equity</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Ms. Juvhi Isabel Teofila F. Kamus</h5>
+            <p class="text-muted">Chairperson on Global Mobility</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Hon. Christopher B. Umali</h5>
+            <p class="text-muted">Chairperson on Environment Protection</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Ms. Lian Airisteah M. San Pedro</h5>
+            <p class="text-muted">Chairperson on Active Citizenship</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Ms. Rica Helaena B. Rea</h5>
+            <p class="text-muted">Chairperson on Peace Building and Security</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Ms. Danna Shiori Briones</h5>
+            <p class="text-muted">Chairperson on Economic Empowerment</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+          <div class="member-card shadow-sm p-4 text-center">
+            <div class="member-photo mb-3">
+              <i class="fas fa-user-circle fa-5x text-primary"></i>
+            </div>
+            <h5 class="fw-bold">Mr. Josh Zyk L. Lumanglas</h5>
+            <p class="text-muted">Chairperson on Agriculture</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>© 2024 Youth Governance System - San Jose, Batangas</p>
+        </div>
+        <div class="col-md-6 text-end">
+          <a href="#" class="text-white me-3"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"
+  ></script>
+</body>
+</html>
